@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Expandable List View</string>
+
+    <string-array name="mobile_list_array">
+        <item>Apple</item>
+        <item>SAMSUNG</item>
+    </string-array>
+
+    <string-array name="apple_array">
+        <item>Iphone</item>
+        <item>Ipad</item>
+        <item>Ipod</item>
+    </string-array>
+
+    <string-array name="samsung_array">
+        <item>Galaxy Grand</item>
+        <item>Galaxy Note</item>
+        <item>Galaxy Mega</item>
+        <item>Galaxy Neo</item>
+    </string-array>
+
+    <string name="iphone_device">Iphone</string>
+    <string name="samsung_galaxy">Galaxy Grand</string>
+</resources>

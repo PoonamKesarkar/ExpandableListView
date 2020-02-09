@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuAddDeviceInfo"
+        android:title="Add Device Info" />
+
+    <item
+        android:id="@+id/menuDeleteDeviceInfo"
+        android:title="Delete All Informaion" />
+
+    <item
+        android:id="@+id/menuSortDate"
+        android:title="Sort By Date" >
+
+        <menu>
+            <item
+                android:id="@+id/menuSortDateIncreasing"
+                android:title="Increasing" />
+            <item
+                android:id="@+id/menuSortDateDecreasing"
+                android:title="Decreasing"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuSortQuantity"
+        android:title="Sort By Quantity" >
+
+        <menu>
+            <item
+                android:id="@+id/menuSortQuantityIncreasing"
+                android:title="Increasing" />
+            <item
+                android:id="@+id/menuSortQuantityDecreasing"
+                android:title="Decreasing"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuSortPopularity"
+        android:title="Sort By Popularity" >
+
+        <menu>
+            <item
+                android:id="@+id/menuSortPopularityIncreasing"
+                android:title="Increasing" />
+            <item
+                android:id="@+id/menuSortPopularityDecreasing"
+                android:title="Decreasing"/>
+        </menu>
+    </item>
+
+</menu>
